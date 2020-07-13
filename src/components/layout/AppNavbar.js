@@ -44,7 +44,6 @@ import {firestoreConnect} from 'react-redux-firebase';
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarMain">
                         <span className="navbar-toggler-icon">
-
                         </span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarMain">

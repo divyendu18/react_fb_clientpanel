@@ -33,7 +33,7 @@ const rrfConfig = {
   const firestore = firebase.firestore();
 
  // const settings={/*your setting*/timestampInSnapshots:true};
-   //   firestore.settings(settings);
+   //  firestore.settings(settings);
 
 
   const createStoreWithFirebase= compose(
@@ -57,10 +57,10 @@ const rrfConfig = {
     allowRegistration:false
     }
 
-    localStorage.setItem('settings',JSON.stringify(defaultSettings));
+    localStorage.setItem('settings',JSON.stringify(defaultSettings)); 
   }
   //create initialState={};
-  const initialState={setting:JSON.parse(localStorage.getItem('settings'))};
+const initialState=JSON.parse(localStorage.getItem('settings'));
  
 const store=createStoreWithFirebase(rootReducer,initialState,compose(
      reactReduxFirebase(firebase),

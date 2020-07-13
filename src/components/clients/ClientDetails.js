@@ -7,9 +7,6 @@ import {firestoreConnect} from 'react-redux-firebase';
 import Spinner from '../layout/Spinner';
 import classnames from 'classnames';
 
-
-
-
 class ClientDetails extends Component {
     state={
         showBalanceUpdate:false,

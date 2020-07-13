@@ -39,7 +39,7 @@ class Clients extends Component {
                         <h2>
                             
                             <i className="fas fa-users">Clients</i></h2>
-                    </div>
+                    </div>  
                     <div className="col-md-6">
                         <h5 className="text-right text-secondary">
                             Total Owed:
